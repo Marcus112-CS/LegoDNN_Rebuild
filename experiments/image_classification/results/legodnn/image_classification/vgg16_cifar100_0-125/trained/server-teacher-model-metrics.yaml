@@ -1,0 +1,83 @@
+FLOPs: 628155392.0
+blocks_info:
+- FLOPs: 79560704.0
+  id: block-0
+  index: 0
+  input_size:
+  - 3
+  - 32
+  - 32
+  output_size:
+  - 64
+  - 32
+  - 32
+  param: 38848.0
+  size: 166219
+- FLOPs: 113770496.0
+  id: block-1
+  index: 1
+  input_size:
+  - 64
+  - 32
+  - 32
+  output_size:
+  - 128
+  - 16
+  - 16
+  param: 221824.0
+  size: 902395
+- FLOPs: 113508352.0
+  id: block-2
+  index: 2
+  input_size:
+  - 128
+  - 16
+  - 16
+  output_size:
+  - 256
+  - 8
+  - 8
+  param: 886016.0
+  size: 3560699
+- FLOPs: 113426432.0
+  id: block-3
+  index: 3
+  input_size:
+  - 256
+  - 8
+  - 8
+  output_size:
+  - 512
+  - 4
+  - 4
+  param: 1771264.0
+  size: 7102715
+- FLOPs: 151093248.0
+  id: block-4
+  index: 4
+  input_size:
+  - 512
+  - 4
+  - 4
+  output_size:
+  - 512
+  - 4
+  - 4
+  param: 4721664.0
+  size: 18908155
+- FLOPs: 37797888.0
+  id: block-5
+  index: 5
+  input_size:
+  - 512
+  - 4
+  - 4
+  output_size:
+  - 512
+  - 2
+  - 2
+  param: 4721664.0
+  size: 18908411
+model_size: 59168078
+param: 14774436.0
+test_accuracy: 0.7429999709129333
