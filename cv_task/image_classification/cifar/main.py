@@ -20,6 +20,7 @@ from cv_task.image_classification.cifar.models import mobilenetv2_w1, mobilenetv
 from cv_task.image_classification.cifar.utils import progress_bar, format_time
 from cv_task.utils.data_record import DataRecord
 from cv_task.datasets.image_classification.data_loader import CIFAR10Dataloader, CIFAR100Dataloader
+from cv_task.log_on_time.time_logger import time_logger # log on time
 os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 
 parser = argparse.ArgumentParser(description='PyTorch CIFAR10 Training')
@@ -37,6 +38,9 @@ parser.add_argument('--num_workers', default=8, type=int, help='train and test d
 parser.add_argument('--wd', default=5e-4, type=float, help='weight decay')
 
 args = parser.parse_args()
+
+time_logger_obj = time_logger('../../../time_log/teacher_model_train_time', args.model + '_' + args.dataset)
+time_logger_obj.start()
 
 if 'mobilenetv2' in args.model:
     args.wd = 4e-5
@@ -174,3 +178,4 @@ for epoch in range(start_epoch, args.epoch):
                                    ('test_loss_list', test_loss),
                                    ('test_acc_list', test_acc)])
     scheduler.step()
+time_logger_obj.end()

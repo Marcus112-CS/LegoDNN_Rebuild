@@ -1,0 +1,20 @@
+blocks_info:
+- id: block-0
+  index: 0
+  latency: 0.0005237900805473326
+- id: block-1
+  index: 1
+  latency: 0.000903848639130592
+- id: block-2
+  index: 2
+  latency: 0.0010152233654260633
+- id: block-3
+  index: 3
+  latency: 0.0010174876749515537
+- id: block-4
+  index: 4
+  latency: 0.00143630175948143
+- id: block-5
+  index: 5
+  latency: 0.0015254208040237428
+latency: 0.004384026551246643

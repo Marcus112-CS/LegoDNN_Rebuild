@@ -1,0 +1,402 @@
+[
+  {
+    "model_file_name": "0.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.8,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.7309000293413798,
+      "esti_latency": 0.0020148572482132157,
+      "model_size": 19544782.0,
+      "FLOPs": 159036488.0,
+      "update_swap_mem_cost": 0,
+      "update_swap_time_cost": 0.0035750865936279297,
+      "is_relaxed": true
+    }
+  },
+  {
+    "model_file_name": "1.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.8,
+        0.6,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.7519333561261495,
+      "esti_latency": 0.002501369261540296,
+      "model_size": 19693454.0,
+      "FLOPs": 165945416.0,
+      "update_swap_mem_cost": 687180.0,
+      "update_swap_time_cost": 0.007205009460449219,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "2.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.2,
+        0.8,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.7635666926701864,
+      "esti_latency": 0.0025116849465281394,
+      "model_size": 20078606.0,
+      "FLOPs": 227279432.0,
+      "update_swap_mem_cost": 1221004.0,
+      "update_swap_time_cost": 0.007861852645874023,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "3.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.4,
+        0.6,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.7894333402315775,
+      "esti_latency": 0.002588466846587604,
+      "model_size": 20604238.0,
+      "FLOPs": 226816712.0,
+      "update_swap_mem_cost": 3457196.0,
+      "update_swap_time_cost": 0.011122703552246094,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "4.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.6,
+        0.4,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.7922000288963318,
+      "esti_latency": 0.002823124190603277,
+      "model_size": 21137102.0,
+      "FLOPs": 227240264.0,
+      "update_swap_mem_cost": 4515692.0,
+      "update_swap_time_cost": 0.009709358215332031,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "5.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.4,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.8023000160853068,
+      "esti_latency": 0.002522245546256833,
+      "model_size": 21663822.0,
+      "FLOPs": 294596936.0,
+      "update_swap_mem_cost": 1278070.0,
+      "update_swap_time_cost": 0.006020784378051758,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "6.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.2,
+        0.2,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.8110000491142273,
+      "esti_latency": 0.0027679829194493057,
+      "model_size": 22196558.0,
+      "FLOPs": 295020488.0,
+      "update_swap_mem_cost": 6634732.0,
+      "update_swap_time_cost": 0.022927522659301758,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "7.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.4,
+        0.0,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.8124333421389262,
+      "esti_latency": 0.0023687346457281293,
+      "model_size": 22722318.0,
+      "FLOPs": 294557768.0,
+      "update_swap_mem_cost": 7693228.0,
+      "update_swap_time_cost": 0.015958547592163086,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "8.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.8,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.8151333530743917,
+      "esti_latency": 0.0027106880579164058,
+      "model_size": 23075918.0,
+      "FLOPs": 339757640.0,
+      "update_swap_mem_cost": 1451190.0,
+      "update_swap_time_cost": 0.0052032470703125,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "9.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.6,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.8161666790644327,
+      "esti_latency": 0.0025408511515834006,
+      "model_size": 24486926.0,
+      "FLOPs": 362337992.0,
+      "update_swap_mem_cost": 4328118.0,
+      "update_swap_time_cost": 0.006731510162353516,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "10.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.2,
+        0.0,
+        0.4,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.8171667059262594,
+      "esti_latency": 0.004092076976181497,
+      "model_size": 25724686.0,
+      "FLOPs": 362761544.0,
+      "update_swap_mem_cost": 8781676.0,
+      "update_swap_time_cost": 0.01571369171142578,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "11.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.4,
+        0.8,
+        0.8
+      ],
+      "esti_test_accuracy": 0.8185333609580994,
+      "esti_latency": 0.002707046187869193,
+      "model_size": 25897934.0,
+      "FLOPs": 384918344.0,
+      "update_swap_mem_cost": 1631542.0,
+      "update_swap_time_cost": 0.005439281463623047,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "12.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.6,
+        0.6,
+        0.8
+      ],
+      "esti_test_accuracy": 0.8187666535377502,
+      "esti_latency": 0.003408182809346058,
+      "model_size": 28248974.0,
+      "FLOPs": 392428808.0,
+      "update_swap_mem_cost": 18557484.0,
+      "update_swap_time_cost": 0.012728214263916016,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "13.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.4,
+        0.6,
+        0.8
+      ],
+      "esti_test_accuracy": 0.8211333354314169,
+      "esti_latency": 0.002878574273681592,
+      "model_size": 29659982.0,
+      "FLOPs": 415009160.0,
+      "update_swap_mem_cost": 7150134.0,
+      "update_swap_time_cost": 0.007172584533691406,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "14.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.4,
+        0.6,
+        0.6
+      ],
+      "esti_test_accuracy": 0.8219666481018066,
+      "esti_latency": 0.003210426244982119,
+      "model_size": 33422030.0,
+      "FLOPs": 422531864.0,
+      "update_swap_mem_cost": 11407862.0,
+      "update_swap_time_cost": 0.007691144943237305,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "15.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.4,
+        0.4,
+        0.6
+      ],
+      "esti_test_accuracy": 0.8220666448275248,
+      "esti_latency": 0.0030439435952690514,
+      "model_size": 37221262.0,
+      "FLOPs": 452917688.0,
+      "update_swap_mem_cost": 18968630.0,
+      "update_swap_time_cost": 0.009230613708496094,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "16.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.4,
+        0.2,
+        0.8
+      ],
+      "esti_test_accuracy": 0.8220666845639547,
+      "esti_latency": 0.0029707861165695565,
+      "model_size": 37221262.0,
+      "FLOPs": 475485800.0,
+      "update_swap_mem_cost": 37937772.0,
+      "update_swap_time_cost": 0.019072771072387695,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "17.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.4,
+        0.2,
+        0.6
+      ],
+      "esti_test_accuracy": 0.8228999972343445,
+      "esti_latency": 0.0032443431052948447,
+      "model_size": 40983310.0,
+      "FLOPs": 483008504.0,
+      "update_swap_mem_cost": 11407862.0,
+      "update_swap_time_cost": 0.008051156997680664,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "18.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.6
+      ],
+      "esti_test_accuracy": 0.8232666452725729,
+      "esti_latency": 0.0033044202913513395,
+      "model_size": 44745486.0,
+      "FLOPs": 513099320.0,
+      "update_swap_mem_cost": 34054134.0,
+      "update_swap_time_cost": 0.01489567756652832,
+      "is_relaxed": false
+    }
+  },
+  {
+    "model_file_name": "19.pt",
+    "model_info": {
+      "blocks_sparsity": [
+        0.6,
+        0.0,
+        0.0,
+        0.4,
+        0.0,
+        0.4
+      ],
+      "esti_test_accuracy": 0.8232666452725729,
+      "esti_latency": 0.0036734071564258064,
+      "model_size": 48544718.0,
+      "FLOPs": 520695776.0,
+      "update_swap_mem_cost": 18969142.0,
+      "update_swap_time_cost": 0.008837223052978516,
+      "is_relaxed": false
+    }
+  }
+]
