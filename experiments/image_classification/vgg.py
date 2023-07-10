@@ -31,7 +31,7 @@ num_workers = 4  # default = 4
 
 if __name__ == '__main__':
     cv_task = 'image_classification'
-    dataset_name = 'cifar100s'
+    dataset_name = 'cifar100'
     model_name = 'vgg16'
     method = 'legodnn'
     device = 'cuda'
