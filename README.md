@@ -102,7 +102,7 @@ time_logger_obj.lap(time_delta_name='step 1') # name segment of each part
 	program part 2
 """
 # 3. end (must do at the end of timer)
-time_logger_obj.lap(time_delta_name='step 2') # name segment of the last part
+time_logger_obj.end(time_delta_name='step 2') # name segment of the last part
 ```
 
 ​	Time log of LegoDNN's demo are saved under **`time_log/legodnn_execute_time`**
